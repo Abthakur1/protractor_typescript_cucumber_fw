@@ -1,0 +1,20 @@
+{
+  "name": "cucumberframework",
+  "version": "1.0.0",
+  "description": "Initial Framework setup for cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "@types/cucumber": "4.0.4",
+    "@types/node": "12.12.2",
+    "cucumber": "6.0.5",
+    "protractor-cucumber-framework": "6.2.1",
+    "ts-node": "8.10.2",
+    "typescript": "3.4.3"
+  }
+}
