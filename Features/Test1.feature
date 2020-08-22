@@ -1,7 +1,10 @@
 Feature: Test Banking application
 
-    Scenario Outline: Login Test
-        Given I launch the url
+    Background: Launch URL
+        Given I launch the url "http://way2automation.com/angularjs-protractor/banking/#/login"
+
+    Scenario Outline: Add customer through bank manager login option
+
         When I click on Bank Manager Login
         And I click on Add customer
         And I give the customer details "<FirstName>", "<LastName>","<PostCode>"
@@ -12,4 +15,4 @@ Feature: Test Banking application
         Examples:
             | FirstName | LastName | PostCode |
             | Abhishek  | Thakur   | 1234     |
-            # | Test      | test     | 2345     |
+# | Test      | test     | 2345     |
